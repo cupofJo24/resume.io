@@ -4,16 +4,16 @@
  
   html
   {
-      font-size:300%;
+      font-size:200%;
     
   }
- 
+ /* text of body*/
   body
   {
       -webkit-font-smoothing:antialiased;
       color:#0c0c0b;
       font-family:Lora, serif;
-      font-size:44px; 
+      font-size:33px; 
       font-weight:400;
       line-height:1.4;
       text-rendering:optimizeLegibility;
@@ -21,13 +21,13 @@
   /* color effect on the skills section */
   .skill-set li:hover
   {
-      background:#29c05b;
+      background:#39ca69;
   }
-  /* header 1s color only*/
+  /* header 1s body para color*/
   h1
   {
-    font font-size: 400px;   
       color:rgba(122, 1, 7, 0.75);
+      position: sticky;
   }
  
   .wrapper
@@ -44,7 +44,7 @@
       margin-left:-1px;
       min-width:256px;
       position:fixed;
-      width:24.24%;
+      width:33.33%;
       background-color: rgba(253, 67, 105, 0.356);
    
   }
@@ -60,7 +60,8 @@
  /* Name section in left stationary panel */
   .name-hero
   {
-      background:rgba(211, 61, 61, 0.001);
+    text-align: center;
+      background:rgba(14, 13, 13, 0.001);
       bottom:0;
       height:290px;
       left:0;
@@ -69,7 +70,7 @@
       right:0;
       top:0;
       width:85%;
-      font-size: 20px;
+      font-size: 33px;
       
   }
  
@@ -91,27 +92,28 @@
       font-size:1.5em;
       text-align:center;
   }
- 
+ /*accent color and style
+ */
   .name-hero h1 em
   {
-      color:rgba(0,0,0,.3);
-      font-style:normal;
+      color:rgba(56, 1, 1, 0.89);
+      font-style:italic;
       font-weight:700;
   }
  
   .name-hero p
   {
-      color:rgba(0,0,0,.75);
+      color:rgba(56, 1, 1, 0.89);
       font size: 50px;
       line-height:1.5;
       margin:0 8px 0 0;
-      text-align:center;
   }
  
   .name-hero .name-text
   {
       margin:0 auto;
       width:85%;
+      padding-bottom: 25px;
   }
  
   .inner
@@ -125,16 +127,17 @@
   {
       font-size:1.75em;
   }
- 
+ /*section paragraph styling*/
   .inner p
   {
-      color:rgba(15, 4, 4, 0.5);
+      color:rgba(27, 1, 1, 0.938);
+      font-style: normal;
   }
- 
+ /*section accent color*/
   .inner p em
   {
-      color:rgba(0,0,0,1);
-      font-style:normal;
+      color:rgba(107, 2, 2, 0.89);
+      font-style:italic;
   }
  
   .inner section
