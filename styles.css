@@ -4,7 +4,8 @@
  
   html
   {
-      font-size:200%;
+      font-size:300%;
+    
   }
  
   body
@@ -12,7 +13,7 @@
       -webkit-font-smoothing:antialiased;
       color:#0c0c0b;
       font-family:Lora, serif;
-      font-size:24px;
+      font-size:44px; 
       font-weight:400;
       line-height:1.4;
       text-rendering:optimizeLegibility;
@@ -25,7 +26,7 @@
   /* header 1s color only*/
   h1
   {
-    font: size 200px;    
+    font font-size: 400px;   
       color:rgba(122, 1, 7, 0.75);
   }
  
@@ -43,7 +44,7 @@
       margin-left:-1px;
       min-width:256px;
       position:fixed;
-      width:33.33%;
+      width:24.24%;
       background-color: rgba(253, 67, 105, 0.356);
    
   }
@@ -56,7 +57,7 @@
       width:66.66%;
   }
  
- 
+ /* Name section in left stationary panel */
   .name-hero
   {
       background:rgba(211, 61, 61, 0.001);
@@ -68,6 +69,8 @@
       right:0;
       top:0;
       width:85%;
+      font-size: 20px;
+      
   }
  
   .me-img
@@ -99,7 +102,7 @@
   .name-hero p
   {
       color:rgba(0,0,0,.75);
-      font-size:.75em;
+      font size: 50px;
       line-height:1.5;
       margin:0 8px 0 0;
       text-align:center;
